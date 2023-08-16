@@ -1,15 +1,13 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <>
       <div>
-        <h1>Hola si</h1>
+        <Navbar />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
